@@ -1,0 +1,21 @@
+server.port: 8081
+
+spring:
+  jpa:
+    generate-ddl: true
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/albums?useSSL=false
+    username: root
+    password: admin123
+
+logging.level:
+  root: WARN
+  org.superbiz.moviefun: DEBUG
+
+s3:
+    endpointUrl: http://127.0.0.1:9000
+    accessKey: WQ4R7703SNO7X5DT24TN
+    secretKey: capesvPdJVpdSCW1RgLmmdQ1vx0iOJlYUbxAvekR
+    bucketName: sperugu
