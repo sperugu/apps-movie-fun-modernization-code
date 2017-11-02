@@ -8,9 +8,9 @@ applications:
   path: applications/album-service/build/libs/album-service-1.1.0-SNAPSHOT.jar
   services:
   - album-database
-- name: movies-service
+- name: movie-service
   routes:
-    - route: movies-service-sperugu-pal.apps.longs.pal.pivotal.io
+    - route: movie-service-sperugu-pal.apps.longs.pal.pivotal.io
   path: applications/movie-service/build/libs/movie-service-1.1.0-SNAPSHOT.jar
   services:
   - movie-database
